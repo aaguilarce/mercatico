@@ -1,0 +1,8 @@
+@import '../../../../styles/index';
+
+.subtitle{
+    font-size: em(22);
+    color: $accent-color ;
+    text-transform: capitalize;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
