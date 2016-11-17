@@ -1,0 +1,30 @@
+@import './../../../../style/main.scss';
+
+.top-bar {
+  background-color: $color_white;
+  border-bottom: 1px solid $color_lightgray;
+  border-top: 4px solid $color_primary;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 28px;
+}
+
+.top-bar__brand {
+  font-family: 'Arvo', serif;
+  font-size: 28px;
+  color: $color_darkgray;
+}
+
+.top-bar__brand:first-child:nth-child(1) {
+  color: red;
+}
+
+.top-bar__account {
+  display: inline-block;
+}
+
+.top-bar__account__option {
+  float: right;
+  padding-left: 5px;
+  vertical-align: middle;
+}

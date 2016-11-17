@@ -1,0 +1,16 @@
+//Height
+$input-height: convertPixelsToEm(20, 16); //55px
+
+//Borders
+$border: convertPixelsToEm(15, 16); //20px
+
+// All color already defined
+$browser-context: 16;
+$color_white: #FFFFFF;
+$color_gray: #555;
+$color_lightgray: #EEEEEE;
+$color_darkgray: #666666;
+$color_black: #000000;
+
+// Add custom variables
+$color_primary: #FB4E4E;

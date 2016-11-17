@@ -1,0 +1,17 @@
+import 'core-js';
+import 'zone.js';
+
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+import {AppModule} from './app/app.module';
+
+export function main() {
+  return platformBrowserDynamic().bootstrapModule(AppModule);
+}
+
+if(document.readyState === 'complete') {
+  main();
+}
+else {
+  document.addEventListener('DOMContentLoaded', main);
+}
+

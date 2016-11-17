@@ -1,0 +1,48 @@
+@import './../../../../style/main.scss';
+
+.navbar__wrapper {
+  padding-top: em(30);
+  padding-bottom: em(30);
+}
+
+.navbar-brand {
+  font-family: 'Arvo', serif;
+  font-size: em(32);
+  color: $color_darkgray;
+  padding: 0 em(5) 0 em(5);
+}
+
+.header__item {
+    font-family: 'DINNextLTPro';
+    font-size: em(16);
+    color: $color_darkgray;
+    text-transform: uppercase;
+}
+
+.header__item--blue {
+    //color: $color_blue;
+}
+
+.header__item--red {
+    //color: $color_red;
+}
+
+.header__item--active {
+    //border-bottom: 4px solid $color_blue;
+    //color: $color_blue;
+}
+
+.header__navbar-custom {
+    //background-color:$color_whiteice;
+  	border: none;
+}
+
+.header__navbar-custom .navbar-nav > li > a:hover{
+    //background-color: $color_whiteice;
+    //border-bottom: 4px solid;
+    //color: $color_blue;
+}
+
+.header__navbar-custom .navbar-nav > li > a {
+
+}
