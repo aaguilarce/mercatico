@@ -1,0 +1,13 @@
+@import './../../style/main.scss';
+
+.shop-footer {
+    background-color: $color_lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.subtitle{
+    font-size: em(22);
+    text-transform: capitalize;
+}

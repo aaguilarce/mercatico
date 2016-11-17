@@ -1,11 +1,23 @@
 // Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import '~bootstrap-sass/assets/stylesheets/bootstrap-sprockets';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
 
-// Custom
+// Animate.css
+@import '~animate.scss/vendor/assets/stylesheets/animate';
+
+// Custom bootstrap components
+@import './custom-components/btn-custom';
+
+// Yamm (mega dropdown menu)
+@import './yamm/yamm';
+
+// Custom general style
 @import 'variables';
 @import 'default';
 @import 'functions';
 @import 'fonts';
 @import 'typography';
 @import 'util';
+@import 'shared';
+@import 'breakpoints';
+

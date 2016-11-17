@@ -5,7 +5,7 @@ var webpack = require('webpack'),
 
 module.exports = {
   entry: {
-    'app': './src/main.ts'
+    'app': ['bootstrap-loader', './src/main.ts'],
   },
 
   resolve: {
@@ -15,6 +15,10 @@ module.exports = {
 
   module: {
     loaders: [
+      {
+        test: /bootstrap-sass\/assets\/javascripts\//,
+        loader: 'imports?jQuery=jquery'
+      },
       {
         test: /\.ts$/,
         loaders: ['awesome-typescript-loader', 'angular2-router-loader', 'angular2-template-loader']
@@ -53,6 +57,12 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       template: 'src/public/index.html'
+    }),
+
+    new webpack.ProvidePlugin({
+      jQuery: 'jquery',
+      $: 'jquery',
+      jquery: 'jquery'
     })
   ]
 };

@@ -1,0 +1,49 @@
+@import './../../../style/main.scss';
+
+.navbar-header {
+  margin-left: 25px !important;
+}
+
+.topbar {
+  background-color: white;
+  border: 0;
+  border-bottom: 1px solid $color_lightgray;
+  border-top: 4px solid $color_red;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.topbar-brand {
+  font-family: 'Arvo', serif;
+  font-size: 28px;
+  color: $color_darkgray;
+}
+
+.topbar-link {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.topbar-link:hover {
+  text-decoration: underline !important;
+}
+
+.topbar-link-default {
+  @extend .topbar-link;
+  padding: 14px 24px;
+}
+
+.topbar-link-primary {
+  @extend .topbar-link;
+  border: 2px solid #0099cc;
+  border-radius: 3px;
+  color: #0099cc !important;
+  padding: 14px !important;
+}
+
+ul.dropdown-lr {
+  width: 300px;
+}

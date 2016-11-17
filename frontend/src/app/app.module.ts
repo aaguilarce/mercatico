@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
 
 import appRoutes from './app.routes';
 
 import { AppComponent } from './app.component';
+import { SharedModule } from './shared/shared.module'
 
 @NgModule({
-  imports: [BrowserModule, appRoutes],
+  imports: [BrowserModule, appRoutes, SharedModule.forRoot(), HttpModule],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
 })

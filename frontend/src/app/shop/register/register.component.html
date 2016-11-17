@@ -1,0 +1,41 @@
+<!-- Start modal register -->
+<div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel panel-primary">
+              <div class="panel-body">
+                <form method="POST" action="#" role="form">
+                  <div class="form-group">
+                    <h2>Register</h2>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label" for="signupName">Your name</label>
+                    <input [(ngModel)]="user.username" [ngModelOptions]="{standalone: true}" id="signupName" type="text" maxlength="50" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label" for="signupEmail">Email</label>
+                    <input [(ngModel)]="user.email" [ngModelOptions]="{standalone: true}" id="signupEmail" type="email" maxlength="50" class="form-control">
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label" for="signupPassword">Password</label>
+                    <input [(ngModel)]="user.password" [ngModelOptions]="{standalone: true}" id="signupPassword" type="password" maxlength="25" class="form-control" placeholder="at least 6 characters" length="40">
+                  </div>
+                  <div class="form-group">
+                    <button (click)="register()" id="signupSubmit" type="submit" class="btn btn-info btn-block">Create your account</button>
+                  </div>
+                  <p class="form-group">By creating an account, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>.</p>
+                  <hr>
+                  <p>Already have an account? <a href="#">Sign in</a></p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End modal register -->

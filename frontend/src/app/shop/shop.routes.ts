@@ -1,6 +1,5 @@
 import { RouterModule } from "@angular/router";
 import { ShopComponent } from "./shop.component";
-import { HeaderComponent } from './header/header.component';
 
 const routes = [
   {

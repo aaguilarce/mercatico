@@ -1,0 +1,19 @@
+@import './../../../style/main.scss';
+
+.navbar {
+  background-color: $color_white;
+  border: 0;
+  border-bottom: 1px solid $color_lightgray;
+  font-weight: 700;
+  margin: 0;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown:hover ,
+.dropdown:focus {
+  background-color: white;
+  border-bottom: 4px solid $color_red !important;
+}

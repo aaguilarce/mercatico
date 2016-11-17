@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import 'jquery';
+
 @Component({
   selector: 'app',
 	styleUrls: ['app.component.scss'],
