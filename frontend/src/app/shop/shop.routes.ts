@@ -3,7 +3,7 @@ import { ShopComponent } from "./shop.component";
 
 const routes = [
   {
-    path: '', component: ShopComponent
+    path: '/admin', component: ShopComponent
   }
 ];
 

@@ -2,14 +2,8 @@
 @import '~bootstrap-sass/assets/stylesheets/bootstrap-sprockets';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
 
-// Animate.css
-@import '~animate.scss/vendor/assets/stylesheets/animate';
-
 // Custom bootstrap components
 @import './custom-components/btn-custom';
-
-// Yamm (mega dropdown menu)
-@import './yamm/yamm';
 
 // Custom general style
 @import 'variables';
@@ -18,6 +12,4 @@
 @import 'fonts';
 @import 'typography';
 @import 'util';
-@import 'shared';
 @import 'breakpoints';
-

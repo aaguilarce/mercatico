@@ -42,6 +42,9 @@ require('./helpers/db');
 // Initialise Passport before using the route middleware
 app.use(passport.initialize());
 
+// Passport
+require('./helpers/passport');
+
 // Set routes
 app.use('/api', routes);
 
@@ -49,9 +52,6 @@ app.use('/api', routes);
 app.use('/api', errors.unauthorizedError);
 app.use('/api', errors.notFoundError);
 app.use('/api', errors.internalServerError);
-
-// Passport
-require('./helpers/passport');
 
 // Run server
 app.listen(config.port, (err) => {

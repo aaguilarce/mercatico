@@ -1,20 +1,30 @@
 body, input, textarea, button, select, p, a, small {
-  font-family: 'Roboto', sans-serif;
-  font-size: em(16);
-  color: $color_gray;
-  line-height: 1.7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: $color_gray;
+    line-height: 1.7;
 }
 
 h1 {
-  font-family: 'Arvo', serif;
-  font-size: em(28);
-  color: $color_darkgray;
-  padding: 0 em(5) 0 em(5);
+    font-family: 'Arvo', serif;
+    font-size: 30px;
+    color: $color_darkgray;
+    padding: 0 5px 0 5px;
+    text-align: center;
 }
 
 h2 {
-  font-family: 'Arvo', serif;
-  font-size: em(16);
-  color: $color_darkgray;
-  padding: 0 em(5) 0 em(5);
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    color: $color_darkgray;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    color: $color_darkgray;
+    padding: 0 5px 0 5px;
+    text-align: center;
 }
